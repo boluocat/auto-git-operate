@@ -104,7 +104,7 @@ class repo_operation():
 
     def add_commit(self, commit_info: str) -> 'Nothing to see here':
         try:
-            self.git.commit('-m', commit_info)
+            self.git.commit(commit_info)
             print(f'Add the commit successfully')
         except git.exc.GitCommandError as e:
             error_info = str(e).split('\n')[-1]
