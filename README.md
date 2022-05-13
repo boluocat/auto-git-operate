@@ -1,3 +1,3 @@
 # auto-git-operate
 
-c
+c d
